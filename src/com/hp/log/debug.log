@@ -1,0 +1,356 @@
+2021-01-14 23:38:04 下午 [Thread: main][ Class:com.github.monkeywie.proxyee.HtpProxyServer >> Method: com.github.monkeywie.proxyee.HtpProxyServer.main(HtpProxyServer.java:23) ]
+INFO:ceshi...
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.logging.InternalLoggerFactory >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:Using SLF4J as the default logging framework
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.channel.MultithreadEventLoopGroup >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.eventLoopThreads: 8
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.channel.nio.NioEventLoop >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.noKeySetOptimization: false
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.channel.nio.NioEventLoop >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.selectorAutoRebuildThreshold: 512
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:Platform: Windows
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.noUnsafe: false
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:Java version: 8
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:sun.misc.Unsafe.theUnsafe: available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:sun.misc.Unsafe.copyMemory: available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:java.nio.Buffer.address: available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:direct buffer constructor: available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:java.nio.Bits.unaligned: available, true
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent0 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:java.nio.DirectByteBuffer.<init>(long, int): available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:sun.misc.Unsafe: available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.tmpdir: C:\Users\LEIBOP~1\AppData\Local\Temp (java.io.tmpdir)
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.noPreferDirect: false
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.maxDirectMemory: 1890582528 bytes
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.CleanerJava6 >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:java.nio.ByteBuffer.cleaner(): available
+2021-01-14 23:38:04 下午 [Thread: main][ Class:io.netty.util.internal.PlatformDependent >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:org.jctools-core.MpscChunkedArrayQueue: available
+2021-01-14 23:38:05 下午 [Thread: main][ Class:io.netty.channel.DefaultChannelId >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.processId: 8336 (auto-detected)
+2021-01-14 23:38:05 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Djava.net.preferIPv4Stack: false
+2021-01-14 23:38:05 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Djava.net.preferIPv6Addresses: false
+2021-01-14 23:38:06 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:86) ]
+DEBUG:Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-01-14 23:38:06 下午 [Thread: main][ Class:io.netty.util.NetUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) ]
+DEBUG:Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.channel.DefaultChannelId >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.machineId: 58:00:e3:ff:fe:56:bf:a5 (auto-detected)
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.util.internal.InternalThreadLocalMap >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.util.internal.InternalThreadLocalMap >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.util.ResourceLeakDetector >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) ]
+DEBUG:-Dio.netty.leakDetection.level: simple
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.util.ResourceLeakDetector >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) ]
+DEBUG:-Dio.netty.leakDetection.targetRecords: 4
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.numHeapArenas: 8
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.numDirectArenas: 8
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.pageSize: 8192
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.maxOrder: 11
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.chunkSize: 16777216
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.tinyCacheSize: 512
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.smallCacheSize: 256
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.normalCacheSize: 64
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.cacheTrimInterval: 8192
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.PooledByteBufAllocator >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.useCacheForAllThreads: true
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.allocator.type: pooled
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.threadLocalDirectBufferSize: 0
+2021-01-14 23:38:07 下午 [Thread: main][ Class:io.netty.buffer.ByteBufUtil >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-01-14 23:38:07 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34] REGISTERED
+2021-01-14 23:38:07 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34] BIND: 0.0.0.0/0.0.0.0:9999
+2021-01-14 23:38:07 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] ACTIVE
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x1915bea7, L:/127.0.0.1:9999 - R:/127.0.0.1:51729]
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.buffer.AbstractByteBuf >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) ]
+DEBUG:-Dio.netty.buffer.bytebuf.checkAccessible: true
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.util.ResourceLeakDetectorFactory >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@320dbd79
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.recycler.linkCapacity: 16
+2021-01-14 23:38:30 下午 [Thread: nioEventLoopGroup-4-1][ Class:io.netty.util.Recycler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) ]
+DEBUG:-Dio.netty.recycler.ratio: 8
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xf3f4a286, L:/127.0.0.1:9999 - R:/127.0.0.1:51732]
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xf3398a45, L:/127.0.0.1:9999 - R:/127.0.0.1:51734]
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x0752f18b, L:/127.0.0.1:9999 - R:/127.0.0.1:51736]
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x1fc1e8ce, L:/127.0.0.1:9999 - R:/127.0.0.1:51737]
+2021-01-14 23:38:31 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:33 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x15709220, L:/127.0.0.1:9999 - R:/127.0.0.1:51740]
+2021-01-14 23:38:33 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:39 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x6a82885d, L:/127.0.0.1:9999 - R:/127.0.0.1:51745]
+2021-01-14 23:38:39 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:42 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x22368bce, L:/127.0.0.1:9999 - R:/127.0.0.1:51747]
+2021-01-14 23:38:42 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x02be4e18, L:/127.0.0.1:9999 - R:/127.0.0.1:51753]
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x5bc183e8, L:/127.0.0.1:9999 - R:/127.0.0.1:51754]
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x16acb754, L:/127.0.0.1:9999 - R:/127.0.0.1:51757]
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x7dc8f86d, L:/127.0.0.1:9999 - R:/127.0.0.1:51758]
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x55b5ace0, L:/127.0.0.1:9999 - R:/127.0.0.1:51761]
+2021-01-14 23:38:58 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x75ce3802, L:/127.0.0.1:9999 - R:/127.0.0.1:51764]
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x2614a5d3, L:/127.0.0.1:9999 - R:/127.0.0.1:51766]
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x7b4e54fd, L:/127.0.0.1:9999 - R:/127.0.0.1:51768]
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xdfec3de1, L:/127.0.0.1:9999 - R:/127.0.0.1:51770]
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x76f5ab14, L:/127.0.0.1:9999 - R:/127.0.0.1:51772]
+2021-01-14 23:38:59 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd0533a6d, L:/127.0.0.1:9999 - R:/127.0.0.1:51774]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x8af12f2b, L:/127.0.0.1:9999 - R:/127.0.0.1:51776]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x542e2b35, L:/127.0.0.1:9999 - R:/127.0.0.1:51778]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x6808fade, L:/127.0.0.1:9999 - R:/127.0.0.1:51780]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd52fe314, L:/127.0.0.1:9999 - R:/127.0.0.1:51782]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xed699699, L:/127.0.0.1:9999 - R:/127.0.0.1:51784]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xb663b823, L:/127.0.0.1:9999 - R:/127.0.0.1:51786]
+2021-01-14 23:39:00 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x28f54b39, L:/127.0.0.1:9999 - R:/127.0.0.1:51788]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x4fc66a61, L:/127.0.0.1:9999 - R:/127.0.0.1:51790]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd635fb28, L:/127.0.0.1:9999 - R:/127.0.0.1:51791]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x3b74c4e0, L:/127.0.0.1:9999 - R:/127.0.0.1:51792]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x6cd073b9, L:/127.0.0.1:9999 - R:/127.0.0.1:51793]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x402868b8, L:/127.0.0.1:9999 - R:/127.0.0.1:51794]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x4126947e, L:/127.0.0.1:9999 - R:/127.0.0.1:51800]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xe256efd6, L:/127.0.0.1:9999 - R:/127.0.0.1:51802]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x2a7389f7, L:/127.0.0.1:9999 - R:/127.0.0.1:51804]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd1128042, L:/127.0.0.1:9999 - R:/127.0.0.1:51806]
+2021-01-14 23:39:01 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x66ca07ea, L:/127.0.0.1:9999 - R:/127.0.0.1:51808]
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x269a4e68, L:/127.0.0.1:9999 - R:/127.0.0.1:51810]
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-4-5][ Class:com.github.monkeywie.proxyee.handler.HttpProxyServerHandle >> Method: com.github.monkeywie.proxyee.handler.HttpProxyServerHandle.channelRead(HttpProxyServerHandle.java:107) ]
+INFO:ceshi...
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-4-5][ Class:com.github.monkeywie.proxyee.handler.HttpProxyServerHandle >> Method: com.github.monkeywie.proxyee.handler.HttpProxyServerHandle.channelRead(HttpProxyServerHandle.java:108) ]
+INFO:host:ocsp.pki.goog:80
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xf75ea41a, L:/127.0.0.1:9999 - R:/127.0.0.1:51812]
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x2251e0a2, L:/127.0.0.1:9999 - R:/127.0.0.1:51816]
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xabe2b92b, L:/127.0.0.1:9999 - R:/127.0.0.1:51818]
+2021-01-14 23:39:02 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xddacbb08, L:/127.0.0.1:9999 - R:/127.0.0.1:51820]
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x753625b7, L:/127.0.0.1:9999 - R:/127.0.0.1:51822]
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xc61cad6d, L:/127.0.0.1:9999 - R:/127.0.0.1:51824]
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x9de797f9, L:/127.0.0.1:9999 - R:/127.0.0.1:51827]
+2021-01-14 23:39:03 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x2b607823, L:/127.0.0.1:9999 - R:/127.0.0.1:51829]
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x0dc560a1, L:/127.0.0.1:9999 - R:/127.0.0.1:51831]
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xc9343bdc, L:/127.0.0.1:9999 - R:/127.0.0.1:51833]
+2021-01-14 23:39:04 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:05 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xca519eb5, L:/127.0.0.1:9999 - R:/127.0.0.1:51835]
+2021-01-14 23:39:05 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:05 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xc9c81e21, L:/127.0.0.1:9999 - R:/127.0.0.1:51837]
+2021-01-14 23:39:05 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:39:22 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xb7fc96ad, L:/127.0.0.1:9999 - R:/127.0.0.1:51847]
+2021-01-14 23:39:22 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:40:11 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x0bdc120b, L:/127.0.0.1:9999 - R:/127.0.0.1:51860]
+2021-01-14 23:40:11 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:40:11 下午 [Thread: nioEventLoopGroup-4-3][ Class:com.github.monkeywie.proxyee.handler.HttpProxyServerHandle >> Method: com.github.monkeywie.proxyee.handler.HttpProxyServerHandle.channelRead(HttpProxyServerHandle.java:107) ]
+INFO:ceshi...
+2021-01-14 23:40:11 下午 [Thread: nioEventLoopGroup-4-3][ Class:com.github.monkeywie.proxyee.handler.HttpProxyServerHandle >> Method: com.github.monkeywie.proxyee.handler.HttpProxyServerHandle.channelRead(HttpProxyServerHandle.java:108) ]
+INFO:host:baoku.360.cn:80
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x3b6552be, L:/127.0.0.1:9999 - R:/127.0.0.1:51875]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd231a60e, L:/127.0.0.1:9999 - R:/127.0.0.1:51878]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x4efbf953, L:/127.0.0.1:9999 - R:/127.0.0.1:51880]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0xd2db1a87, L:/127.0.0.1:9999 - R:/127.0.0.1:51881]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x2f5ac7c0, L:/127.0.0.1:9999 - R:/127.0.0.1:51882]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x8026830d, L:/127.0.0.1:9999 - R:/127.0.0.1:51886]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x8ef750e6, L:/127.0.0.1:9999 - R:/127.0.0.1:51888]
+2021-01-14 23:41:16 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE
+2021-01-14 23:41:19 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ: [id: 0x54ce46d7, L:/127.0.0.1:9999 - R:/127.0.0.1:51892]
+2021-01-14 23:41:19 下午 [Thread: nioEventLoopGroup-3-1][ Class:io.netty.handler.logging.LoggingHandler >> Method: io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) ]
+DEBUG:[id: 0x028d0f34, L:/0:0:0:0:0:0:0:0:9999] READ COMPLETE

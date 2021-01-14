@@ -33,12 +33,16 @@ import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.resolver.NoopAddressResolverGroup;
 import io.netty.util.ReferenceCountUtil;
+
 import java.net.InetSocketAddress;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
+  static Logger logger = LoggerFactory.getLogger(HttpProxyServerHandle.class);
 
   private ChannelFuture cf;
   private String host;
@@ -100,6 +104,8 @@ public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
         }
       }
       interceptPipeline = buildPipeline();
+      logger.info("ceshi...");
+      logger.info(String.format("host:%s:%s",host,port));
       interceptPipeline.setRequestProto(new RequestProto(host, port, isSsl));
       //fix issue #27
       if (request.uri().indexOf("/") != 0) {
