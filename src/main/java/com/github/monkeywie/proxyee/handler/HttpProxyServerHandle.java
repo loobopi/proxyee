@@ -2,6 +2,7 @@ package com.github.monkeywie.proxyee.handler;
 
 import com.github.monkeywie.proxyee.crt.CertPool;
 import com.github.monkeywie.proxyee.exception.HttpProxyExceptionHandle;
+import com.github.monkeywie.proxyee.facade.LoggerFacade;
 import com.github.monkeywie.proxyee.intercept.HttpProxyIntercept;
 import com.github.monkeywie.proxyee.intercept.HttpProxyInterceptInitializer;
 import com.github.monkeywie.proxyee.intercept.HttpProxyInterceptPipeline;
@@ -42,7 +43,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
-  static Logger logger = LoggerFactory.getLogger(HttpProxyServerHandle.class);
+  static LoggerFacade logger = new LoggerFacade();
 
   private ChannelFuture cf;
   private String host;
@@ -82,6 +83,7 @@ public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
   public void channelRead(final ChannelHandlerContext ctx, final Object msg) throws Exception {
     if (msg instanceof HttpRequest) {
       HttpRequest request = (HttpRequest) msg;
+      logger.print(request);
       //第一次建立连接取host和端口号和处理代理握手
       if (status == 0) {
         RequestProto requestProto = ProtoUtil.getRequestProto(request);
@@ -104,7 +106,6 @@ public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
         }
       }
       interceptPipeline = buildPipeline();
-      logger.info("ceshi...");
       logger.info(String.format("host:%s:%s",host,port));
       interceptPipeline.setRequestProto(new RequestProto(host, port, isSsl));
       //fix issue #27
@@ -216,6 +217,7 @@ public class HttpProxyServerHandle extends ChannelInboundHandlerAdapter {
           @Override
           public void beforeRequest(Channel clientChannel, HttpRequest httpRequest,
               HttpProxyInterceptPipeline pipeline) throws Exception {
+            logger.print(httpRequest);
             handleProxyData(clientChannel, httpRequest, true);
           }
 
